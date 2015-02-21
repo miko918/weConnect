@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="weConnect" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2014-01.2.3">
+  <Role name="weConnectWebRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="SpeedDatingStorageConnectonString_" value="DefaultEndpointsProtocol=https;AccountName=michajohstorageint01;AccountKey=4j1Y34hQJAoMuBpEO8RYhkW5c7aVUFRvmJ0/Q0GWV9dIVVocbuFa5bLouYmYL2UQyrAY3uOxprrLl9xtPuycYg==" />
+      <Setting name="SpeedDatingStorageConnectonString" value="UseDevelopmentStorage=true" />
+      <Setting name="SpeedaDatingEmulatorConnectionString" value="UseDevelopmentStorage=true" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="ResourceWorkerRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="SpeedDatingStorageConnectonString_" value="DefaultEndpointsProtocol=https;AccountName=michajohstorageint01;AccountKey=4j1Y34hQJAoMuBpEO8RYhkW5c7aVUFRvmJ0/Q0GWV9dIVVocbuFa5bLouYmYL2UQyrAY3uOxprrLl9xtPuycYg==" />
+      <Setting name="SpeedDatingStorageConnectonString" value="UseDevelopmentStorage=true" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

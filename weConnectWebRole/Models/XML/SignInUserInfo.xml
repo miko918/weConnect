@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SignInUserInfo>
+  <username>miko918@live.com</username>
+  <Password>password</Password>
+</SignInUserInfo>
+
+
+
+{
+    "RequestType": "Request",
+    "MessageType" : "Resource",
+    "Action" : "SIGNIN",
+    "CallId" : "6D13D693-3A07-44CC-A44F-90C015DB2A44",
+    "Username" : "test11@test.com",
+    "Password" : "07Apples"
+}
+
+
+
+
+{
+    "RequestType":"Response",
+    "Status":"SUCCESS",
+    "MessageType" : "Resource",
+    "CallId" : "6D13D693-3A07-44CC-A44F-90C015DB2A44",
+    "Action" : "Signin"	  
+}
