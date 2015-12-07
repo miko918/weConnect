@@ -30,6 +30,7 @@ using com.web.server.weconnect;
 
 namespace com.web.server.weconnect.weconnectwebrole.controllers
 {
+    [Authorize]
     public class UserController : ApiController
     {
         /// <summary>

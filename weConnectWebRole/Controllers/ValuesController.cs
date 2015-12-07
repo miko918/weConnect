@@ -7,6 +7,7 @@ using System.Web.Http;
 
 namespace com.web.server.weconnect.weconnectwebrole.controllers
 {
+    [Authorize]
     public class ValuesController : ApiController
     {
         // GET api/values

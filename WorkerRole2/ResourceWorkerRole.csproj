@@ -33,20 +33,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="com.web.server.weconnect.messagehandlers">
-      <HintPath>..\Common\MessageHandlers\bin\Debug\com.web.server.weconnect.messagehandlers.dll</HintPath>
+      <HintPath>..\Common\MessageHandlers\bin\Release\com.web.server.weconnect.messagehandlers.dll</HintPath>
     </Reference>
     <Reference Include="com.web.server.weconnect.messages">
-      <HintPath>..\Common\Messages\bin\Debug\com.web.server.weconnect.messages.dll</HintPath>
-    </Reference>
-    <Reference Include="com.web.server.weconnect.resourceworkerrole, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\com.web.server.weconnect.resourceworkerrole.dll</HintPath>
+      <HintPath>..\Common\Messages\bin\Release\com.web.server.weconnect.messages.dll</HintPath>
     </Reference>
     <Reference Include="com.web.server.weconnect.serviceutilities">
       <HintPath>..\Common\ServiceUtilities\bin\Debug\com.web.server.weconnect.serviceutilities.dll</HintPath>
     </Reference>
     <Reference Include="com.web.server.weconnect.store">
-      <HintPath>..\Common\Store\bin\Debug\com.web.server.weconnect.store.dll</HintPath>
+      <HintPath>..\Common\Store\bin\Release\com.web.server.weconnect.store.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Data.Edm, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -59,13 +55,13 @@
     <Reference Include="Microsoft.WindowsAzure.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.WindowsAzure.ConfigurationManager.2.0.0.0\lib\net40\Microsoft.WindowsAzure.Configuration.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.WindowsAzure.Diagnostics, Version=2.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+    <Reference Include="Microsoft.WindowsAzure.Diagnostics, Version=2.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.WindowsAzure.ServiceRuntime, Version=2.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.WindowsAzure.Storage, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\WindowsAzure.Storage.2.0.5.1\lib\net40\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    <Reference Include="Microsoft.WindowsAzure.ServiceRuntime, Version=2.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Private>False</Private>
     </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage, Version=3.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Services.Client" />

@@ -58,7 +58,7 @@ namespace com.web.server.weconnect.weconnectwebrole
             diagConfig.WindowsEventLog.DataSources.Add("Application!*");
             diagConfig.WindowsEventLog.DataSources.Add("weConnect*");
             diagConfig.WindowsEventLog.ScheduledTransferPeriod = TimeSpan.FromMinutes(1.0);
-            diagConfig.WindowsEventLog.ScheduledTransferLogLevelFilter = LogLevel.Error;
+            diagConfig.WindowsEventLog.ScheduledTransferLogLevelFilter = Microsoft.WindowsAzure.Diagnostics.LogLevel.Error;
             //DiagnosticMonitor.Start("Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString", diagConfig);            
             
         }

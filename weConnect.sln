@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{D08C1482-D15A-40AE-B123-A0BBC76D8BF2}"
+EndProject
 Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "weConnect", "weConnect\weConnect.ccproj", "{EE6BE721-C1D0-48EE-8E93-86CF27A58A2A}"
 	ProjectSection(ProjectDependencies) = postProject
 		{1B073C2C-7C56-44B1-AB11-9D318EDA8FC0} = {1B073C2C-7C56-44B1-AB11-9D318EDA8FC0}
@@ -23,8 +25,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weConnectWebRole", "weConne
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weConnectWebRole.Tests", "weConnectWebRole.Tests\weConnectWebRole.Tests.csproj", "{F0D5094B-BE58-4A07-95B3-178C9FD6B723}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{D08C1482-D15A-40AE-B123-A0BBC76D8BF2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Common\Messages\Messages.csproj", "{9309CA68-7E04-4B3C-8A61-C7EB6A2316A1}"
 EndProject
